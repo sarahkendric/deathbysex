@@ -1,0 +1,452 @@
+    @font-face {
+      font-family: 'Avara-Bold';
+      src: url('Avara-Bold.otf') format('embedded-opentype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    .menu-icon {
+              position: fixed;
+              z-index: 3;
+              margin-top: 3vh;
+              margin-left: 3vw;
+            }
+
+
+
+@media only screen and (min-width: 600px) {
+
+    .desk {display: block;}
+    .mob {display: none;}
+
+    body, html {
+      height: 100%;
+      width: 100vw;
+      margin: 0;
+      overflow-x: hidden;
+      background-color: #120401;
+    }
+
+    sup {
+      color: #F53819;
+      font-family: pt-mono,monospace;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 12px;
+      line-height: 6px;
+    }
+
+    h2 {
+      font-family: 'Avara-Bold';
+      src: url('Avara-Bold.otf') format('embedded-opentype');
+      font-weight: normal;
+      font-style: italic;
+      color: #F53819;
+      letter-spacing: -1px;
+      line-height: 1.2em;
+    }
+
+    h3 {
+      font-family: 'Avara-Bold';
+      src: url('Avara-Bold.otf') format('embedded-opentype');
+      font-weight: normal;
+      letter-spacing: -1px;
+      font-size: 18px;
+      text-align: center;
+    }
+
+    a:link { text-decoration: none; }
+    a:visited { text-decoration: none; }
+    a:hover { text-decoration: underline;}
+    a:active { text-decoration: none; }
+
+    .link-white {
+      color: #F6F3F2;
+    }
+
+    .link-red {
+      color: #F53819;
+    }
+
+    .text {
+      font-family: pt-serif,serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.5em;
+      font-style: normal;
+      color: #F6F3F2;
+      width: 50vw;
+    }
+
+    .text-black {
+      font-family: pt-serif,serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.5em;
+      font-style: normal;
+      color: #120401;
+      width: 50vw;
+    }
+
+    .menu {
+      height: 100vh;
+      width: 30vw;
+      margin: 0;
+      background-color: #120401;
+      position: fixed;
+      z-index: 2;
+    }
+
+    #menu-items {
+      font-family: 'Avara-Bold';
+      src: url('Avara-Bold.otf') format('embedded-opentype');
+      font-weight: normal;
+      font-style: italic;
+      color: #F53819;
+      letter-spacing: -1px;
+      line-height: 1.2em;
+      font-size: 2em;
+      max-width: fit-content;
+      margin-top: 12vh;
+      text-align: left;
+      margin-left: 3vw;
+      padding-right: 1vw;
+    }
+
+    #landingpage {
+      background-image: url("landingpage.gif");
+      /* Full height */
+      height: 100vh; 
+      width: 100vw;
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: 1;
+
+      overflow-x: hidden;
+      overflow-y: scroll;
+    }
+
+    #title {
+      padding-top: 3vh;
+      margin-bottom: -3vh;
+    }
+
+    .landing-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: flex-end;
+      justify-content: center;
+      gap: 5vw;
+      padding: 3vw;
+
+      color: #F6F3F2;
+      text-align: center;
+      font-family: "Avara-Bold";
+    }
+
+    .landing-item {
+      font-size: 25px;
+    }
+
+    #description {
+      font-size: 15px;
+      line-height: 1.35em;
+      width: 60%;
+    }
+
+    #tagline {
+      font-size: 15px;
+      color: #F6F3F2;
+      display: flex;
+      justify-content: center;
+      padding-top: 7vh;
+    }
+
+    #page3-image {
+      background-image: url("page3.png");
+      /* Full height */
+      height: 100vh; 
+      width: 100vw;
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: 1;
+
+      overflow-x: hidden;
+      overflow-y: scroll;
+    }
+
+    #page4-image {
+      background-image: url("page4.png");
+      /* Full height */
+      height: 100vh; 
+      width: 100vw;
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: 1;
+
+      overflow-x: hidden;
+      overflow-y: scroll;
+    }
+
+    #page5-image {
+      background-image: url("page5.png");
+      /* Full height */
+      height: 100vh; 
+      width: 100vw;
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: 1;
+
+      overflow-x: hidden;
+      overflow-y: scroll;
+    }
+
+    .page {
+      height: fit-content;
+      padding-top: 1vh;
+      padding-bottom: 2vh;
+    }
+
+    .white-page {
+      height: fit-content;
+      padding-top: 1vh;
+      padding-bottom: 2vh;
+      background-color: #F6F3F2;
+      margin: 0;
+    }
+
+    .content{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: flex-start;
+      gap: 10vw;
+      margin-top: 15vh;
+      margin-left: 6vh;
+    }
+
+    .cites {
+      width: 12vw;
+    }
+
+    .image-row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      position: relative;
+      gap: 1vw;
+  
+      z-index: 0;
+      margin-top: -4vh;
+    }
+
+    #page2-title {
+      position: relative;
+      z-index: 1;
+    }
+
+    #page2-content {
+      margin-top: -5vh;
+    }
+
+    #page2-cites {
+      margin-top: 10vh;
+    }
+
+    #archive-link {
+      text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .desk {display: none;}
+    .mob {display: block;}
+
+            body {
+              background-color: #120401;
+              height: 100%;
+              width: 100vw;
+              margin: 0;
+              overflow-x: hidden;
+            }
+
+            sup {
+              color: #F53819;
+              font-family: pt-mono,monospace;
+              font-weight: 400;
+              font-style: normal;
+              font-size: 12px;
+              line-height: 6px;
+            }
+
+            h2 {
+              font-family: 'Avara-Bold';
+              src: url('Avara-Bold.otf') format('embedded-opentype');
+              font-weight: normal;
+              font-style: italic;
+              color: #F53819;
+              letter-spacing: -1px;
+              line-height: 1.2em;
+            }
+
+            h3 {
+              font-family: 'Avara-Bold';
+              src: url('Avara-Bold.otf') format('embedded-opentype');
+              font-weight: normal;
+              letter-spacing: -1px;
+              font-size: 18px;
+              text-align: center;
+            }
+
+            .text {
+              font-family: pt-serif,serif;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 1.5em;
+              font-style: normal;
+              color: #F6F3F2;
+            }
+
+            .text-black {
+              font-family: pt-serif,serif;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 1.5em;
+              font-style: normal;
+              color: #120401;
+            }
+
+            .menu {
+              height: 100vh;
+              width: 100vw;
+              margin: 0;
+              background-color: #120401;
+              position: fixed;
+              z-index: 2;
+            }
+
+           #menu-items {
+             font-family: 'Avara-Bold';
+             src: url('Avara-Bold.otf') format('embedded-opentype');
+             font-weight: normal;
+             font-style: italic;
+             color: #F53819;
+             letter-spacing: -1px;
+             line-height: 1.2em;
+             font-size: 2em;
+             max-width: fit-content;
+             margin-top: 12vh;
+             text-align: left;
+             margin-left: 6vw;
+             padding-right: 1vw;
+           }
+
+           a:link { text-decoration: none; }
+           a:visited { text-decoration: none; }
+           a:hover { text-decoration: underline;}
+           a:active { text-decoration: none; }
+        
+           .link-white {
+             color: #F6F3F2;
+           }
+
+            .link-red {
+              color: #F53819;
+            }
+
+
+            #landingpage {
+              background-image: url("landingpage.gif");
+              /* Full height */
+              height: 100vh; 
+              width: 100vw;
+              /* Center and scale the image nicely */
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              z-index: 1;
+
+              overflow-x: hidden;
+              padding-top: 6vh;
+            }
+
+            #title {
+              padding-top: 3vh;
+              margin-bottom: -3vh;
+            }
+
+            .landing-container {
+              color: #F6F3F2;
+              text-align: center;
+              font-family: "Avara-Bold";
+              padding: 7vw;
+            }
+
+            .landing-item {
+              font-size: 25px;
+            }
+
+            #description {
+              font-size: 15px;
+              line-height: 1.35em;
+            }
+
+            #tagline {
+              font-size: 15px;
+              color: #F6F3F2;
+              display: flex;
+              justify-content: center;
+              padding-top: 7vh;
+            }
+
+          .page {
+            height: fit-content;
+            padding: 7vw;
+            padding-top: 3vh;
+          }
+
+          .white-page {
+            height: fit-content;
+            padding: 7vw;
+            padding-top: 3vh;
+            background-color: #F6F3F2;
+            color: ;
+          }
+
+          .haysheader {
+            margin-bottom: -3vh;
+            position: relative;
+            z-index: 1;
+          }
+
+          #archive-link {
+            text-align: center;
+          }
+}
+
+
+
