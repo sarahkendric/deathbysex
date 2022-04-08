@@ -1,11 +1,14 @@
-@charset "utf-8";
-
-    @font-face {
-      font-family: Avara-Bold;
-      src: url(Avara-Bold.otf) format(embedded-opentype);
-      font-weight: normal;
-      font-style: normal;
-    }
+@font-face {
+    font-family: 'avarabold';
+    src: url('avara.eot');
+    src: url('avara.eot?#iefix') format('embedded-opentype'),
+         url('avara.woff2') format('woff2'),
+         url('avara.woff') format('woff'),
+         url('avara.ttf') format('truetype'),
+         url('avara.svg#avarabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
     .menu-icon {
               position: fixed;
@@ -38,18 +41,17 @@
     }
 
     h2 {
-      font-family: Avara-Bold;
-      src: url(Avara-Bold.otf) format(embedded-opentype);
-      font-weight: normal;
+      font-family: 'avarabold';
       font-style: italic;
+      font-weight: normal;
       color: #F53819;
       letter-spacing: -1px;
       line-height: 1.2em;
     }
 
     h3 {
-      font-family: Avara-Bold;
-      src: url(Avara-Bold.otf) format(embedded-opentype);
+      font-family: 'avarabold';
+      font-style: normal;
       font-weight: normal;
       letter-spacing: -1px;
       font-size: 18px;
@@ -99,8 +101,7 @@
     }
 
     #menu-items {
-      font-family: Avara-Bold;
-      src: url(Avara-Bold.otf) format(embedded-opentype);
+      font-family: avarabold;
       font-weight: normal;
       font-style: italic;
       color: #F53819;
@@ -145,7 +146,9 @@
 
       color: #F6F3F2;
       text-align: center;
-      font-family: "Avara-Bold";
+      font-family: avarabold;
+      font-weight: normal;
+      font-style: normal;
     }
 
     .landing-item {
