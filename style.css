@@ -308,8 +308,7 @@
             }
 
             h2 {
-              font-family: 'Avara-Bold';
-              src: url('Avara-Bold.otf') format('embedded-opentype');
+              font-family: 'avarabold';
               font-weight: normal;
               font-style: italic;
               color: #F53819;
@@ -318,8 +317,7 @@
             }
 
             h3 {
-              font-family: 'Avara-Bold';
-              src: url('Avara-Bold.otf') format('embedded-opentype');
+              font-family: 'avarabold';
               font-weight: normal;
               letter-spacing: -1px;
               font-size: 18px;
@@ -354,8 +352,7 @@
             }
 
            #menu-items {
-             font-family: 'Avara-Bold';
-             src: url('Avara-Bold.otf') format('embedded-opentype');
+             font-family: 'avarabold';
              font-weight: normal;
              font-style: italic;
              color: #F53819;
@@ -406,7 +403,7 @@
             .landing-container {
               color: #F6F3F2;
               text-align: center;
-              font-family: "Avara-Bold";
+              font-family: 'avarabold';
               padding: 7vw;
             }
 
