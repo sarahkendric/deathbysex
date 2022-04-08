@@ -1,6 +1,8 @@
+@charset "utf-8";
+
     @font-face {
-      font-family: 'Avara-Bold';
-      src: url('Avara-Bold.otf') format('embedded-opentype');
+      font-family: Avara-Bold;
+      src: url(Avara-Bold.otf) format(embedded-opentype);
       font-weight: normal;
       font-style: normal;
     }
@@ -11,7 +13,6 @@
               margin-top: 3vh;
               margin-left: 3vw;
             }
-
 
 
 @media only screen and (min-width: 600px) {
@@ -37,8 +38,8 @@
     }
 
     h2 {
-      font-family: 'Avara-Bold';
-      src: url('Avara-Bold.otf') format('embedded-opentype');
+      font-family: Avara-Bold;
+      src: url(Avara-Bold.otf) format(embedded-opentype);
       font-weight: normal;
       font-style: italic;
       color: #F53819;
@@ -47,8 +48,8 @@
     }
 
     h3 {
-      font-family: 'Avara-Bold';
-      src: url('Avara-Bold.otf') format('embedded-opentype');
+      font-family: Avara-Bold;
+      src: url(Avara-Bold.otf) format(embedded-opentype);
       font-weight: normal;
       letter-spacing: -1px;
       font-size: 18px;
@@ -98,8 +99,8 @@
     }
 
     #menu-items {
-      font-family: 'Avara-Bold';
-      src: url('Avara-Bold.otf') format('embedded-opentype');
+      font-family: Avara-Bold;
+      src: url(Avara-Bold.otf) format(embedded-opentype);
       font-weight: normal;
       font-style: italic;
       color: #F53819;
